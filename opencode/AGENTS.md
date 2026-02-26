@@ -72,12 +72,6 @@ See `local-agents/NUXT2_AGENTS.md` in this repo.
 
 <!-- tombstone — full content moved to local-agents/ for project-level use -->
 
-**Reference files:**
-- `nuxt.config.js` — plugin registration order, module list, `generate.routes()`
-- `plugins/firebase.js` — canonical Firebase init pattern
-- `plugins/facets.js` — parallel prefetch on app boot with `Promise.all`
-- `plugins/cookies.js` — store hydration from cookie on page load
-
 ---
 
 ## Roblox Game Development (Luau)
