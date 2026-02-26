@@ -1,0 +1,60 @@
+{
+  "cesp_version": "1.0",
+  "name": "zelda-mix",
+  "display_name": "Zelda Mix (Ocarina of Time + A Link to the Past)",
+  "version": "1.0.0",
+  "description": "Custom mix of sounds from Ocarina of Time and A Link to the Past",
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/OOT_Navi_Hello1.wav", "label": "Hello!" },
+        { "file": "sounds/OOT_Navi_Hey1.wav", "label": "Hey!" },
+        { "file": "sounds/OOT_6amRooster.wav", "label": "Rooster crowing" },
+        { "file": "sounds/select_screen_start.wav", "label": "Select Screen (Start)" },
+        { "file": "sounds/triforce_chamber_start.wav", "label": "Triforce Chamber (Start)" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/OOT_Fairy.wav", "label": "Fairy chime" },
+        { "file": "sounds/crystal_start.wav", "label": "Crystal (Start)" },
+        { "file": "sounds/the_goddess_appears_start.wav", "label": "The Goddess Appears (Start)" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/item_get_1.wav", "label": "Item Get 1" },
+        { "file": "sounds/boss_clear_fanfare.wav", "label": "Boss Clear Fanfare" },
+        { "file": "sounds/guessing_game_house_start.wav", "label": "Guessing Game House (Start)" },
+        { "file": "sounds/OOT_Secret.wav", "label": "Secret discovery" },
+        { "file": "sounds/secret.wav", "label": "Secret" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/OOT_Navi_WatchOut1.wav", "label": "Watch out!" },
+        { "file": "sounds/church_start.wav", "label": "Church (Start)" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/OOT_Navi_Look1.wav", "label": "Look!" },
+        { "file": "sounds/OOT_Navi_Listen1.wav", "label": "Listen!" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/link_falls.wav", "label": "Link Falls" },
+        { "file": "sounds/low_hp.wav", "label": "Low HP" },
+        { "file": "sounds/OOT_Dialogue_No.wav", "label": "No!" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/cucco.wav", "label": "Cucco" }
+      ]
+    }
+  }
+}
